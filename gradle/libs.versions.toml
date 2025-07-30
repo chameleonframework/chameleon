@@ -4,7 +4,7 @@ version = "1.0"
 [versions]
 # Adventure
 adventure = "4.18.0"
-adventure-platform = "4.3.4"
+adventure-platform = "4.4.1"
 
 # Platforms
 bukkit = "1.20.2-R0.1-SNAPSHOT"
