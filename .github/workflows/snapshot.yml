@@ -11,7 +11,7 @@ concurrency: "gradle-snapshot-${{ github.ref }}"
 jobs:
   snapshot:
     name: "Snapshot"
-    uses: HyperaDev/actions/.github/workflows/gradle-snapshot.yml@main
+    uses: HyperaDev/actions/.github/workflows/gradle-snapshot.yml@beddc3665d0e5acb585777857b14115017633dd0 # main
     with:
       java_version: "21"
     secrets:

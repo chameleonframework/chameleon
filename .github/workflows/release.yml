@@ -10,7 +10,7 @@ concurrency: "gradle-release-${{ github.ref }}"
 jobs:
   release:
     name: "Release"
-    uses: HyperaDev/actions/.github/workflows/gradle-release.yml@main
+    uses: HyperaDev/actions/.github/workflows/gradle-release.yml@beddc3665d0e5acb585777857b14115017633dd0 # main
     with:
       project_name: "Chameleon"
       java_version: "21"
