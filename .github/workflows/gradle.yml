@@ -13,7 +13,7 @@ concurrency: "gradle-build-${{ github.event.number || github.ref }}"
 jobs:
   build:
     name: "Build"
-    uses: HyperaDev/actions/.github/workflows/gradle-build.yml@main
+    uses: HyperaDev/actions/.github/workflows/gradle-build.yml@beddc3665d0e5acb585777857b14115017633dd0 # main
     with:
       java_version: "21"
       gradle_warning_mode: "fail"
